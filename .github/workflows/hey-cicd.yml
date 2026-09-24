@@ -30,6 +30,13 @@ jobs:
             echo "Secret is not configured."
             exit 1
           fi
+on:
+  push:
+    branches:
+       -main
+       -feature/*   
+                   
+
 
    
 
