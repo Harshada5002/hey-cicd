@@ -13,10 +13,7 @@ jobs:
         run: uname -a
       - name: My name
         run: echo "Harshada"
-name: Secrets Demo
-on:
-  workflow_dispatch:
-jobs:
+
   secrets-demo:
     runs-on: ubuntu-latest
     steps:
